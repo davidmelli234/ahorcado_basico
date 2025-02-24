@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <!-- Carga de la hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Título del juego -->
+     <div>
+            <h1>Juego del Ahorcado</h1>
+            
+            <!-- Canvas donde se dibujará el ahorcado -->
+            <canvas id="ahorcadoCanvas" width="200" height="200"></canvas>
+            
+            <!-- La palabra a adivinar, mostrada como guiones bajos -->
+            <p id="palabra">_ _ _ _ _ _ _</p>
+            
+            <!-- Indicador de intentos restantes -->
+            <p>Intentos restantes: <span id="intentos"></span></p>
+            
+            <!-- Input para ingresar una letra -->
+            <input type="text" id="letra" maxlength="1" autofocus>
+            
+            <!-- Botón para enviar la letra -->
+            <button id="enviarLetra">Enviar letra</button>
+            
+            <!-- Lista de letras ingresadas incorrectamente -->
+            <p>Letras ingresadas: <span id="letrasPulsadas"></span></p>
+             <!-- Mensaje de resultado (ganar o perder) -->
+            <p id="mensaje"></p>
+            <div id="container" style="width: 100%; text-align: center;">
+                <button id="empezar">Empezar de nuevo</button>
+            </div>
+            
+
+      <!-- Carga del archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+

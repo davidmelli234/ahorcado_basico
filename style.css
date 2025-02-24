@@ -1,0 +1,64 @@
+/* Estilos básicos del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff6347;
+}
+
+#ahorcadoCanvas {
+    border: 2px solid #333;
+    margin: 20px auto;
+    padding: 10px 10px;
+    display: block;
+}
+
+#palabra {
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+
+#intentos {
+    font-weight: bold;
+}
+
+#letra {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#enviarLetra,
+#empezar {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#empezar {
+    display: none;
+    margin: 0 auto;
+}
+
+#enviarLetra:hover {
+    background-color: #ff4500;
+}
+
+#letrasPulsadas {
+    font-style: italic;
+}
+
+#mensaje {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
